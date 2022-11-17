@@ -1,11 +1,7 @@
 #include "shell.h"
 
-
-
 /**
-
  * input_buf - buffers chained commands
-
  * @info: parameter struct
 
  * @buf: address of buffer
@@ -335,4 +331,4 @@ void sigintHandler(__attribute__((unused))int sig_num)
 	_puts("$ ");
 
 	_putchar(BUF_FLUSH);
-
+}
