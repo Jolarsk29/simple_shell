@@ -40,9 +40,8 @@ int _erratoi(char *s)
 
 void print_error(info_t *info, char *estr)
 {
-	_eputs(info->fname);
-	
-	_eputs(": ");
+	_eputs(info->fname)
+		_eputs(": ");
 
 	print_d(info->line_count, STDERR_FILENO);
 
